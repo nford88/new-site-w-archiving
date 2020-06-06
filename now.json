@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/**",
+      "src": "src/*",
       "use": "@now/static"
     }
   ],
@@ -15,4 +15,5 @@
       "src": "/(.+)",
       "dest": "src/archive/$1"
     }
-  }
+  ]
+}
