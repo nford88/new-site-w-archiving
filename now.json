@@ -4,14 +4,10 @@
     {
       "src": "*.js",
       "use": "@now/node-server"
+    },
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
     }
-  ],
-  "static": {
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+  ]
 }
