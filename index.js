@@ -1,3 +1,6 @@
+
+import './public/archive/css/style.css'
+
 var express = require('express');
 var server = express();
 server.use('/', express.static(__dirname + '/public/archive'));
