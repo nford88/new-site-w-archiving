@@ -2,8 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/*",
+      "src": "src/**/*",
       "use": "@now/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@now/node-server"
     }
   ],
   "routes": [
