@@ -6,6 +6,5 @@
       "use": "@now/node-server"
     }
   ],
-  "type": "static",
   "public": true
 }
