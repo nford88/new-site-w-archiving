@@ -1,5 +1,4 @@
 
-import './public/archive/css/style.css'
 
 var express = require('express');
 var server = express();
