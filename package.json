@@ -1,5 +1,5 @@
 {
-  "name": "new-site-w-archiving",
+  "name": "nf88-site-w-archiving",
   "version": "1.0.0",
   "description": "Coming soon page for new site alongside archived version of old PHP site which is not a compiled list of HTML's",
   "main": "index.js",
